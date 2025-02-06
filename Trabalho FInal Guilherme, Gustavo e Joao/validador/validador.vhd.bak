@@ -1,0 +1,22 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+entity validador is
+    port (
+        a : in std_logic_vector(3 downto 0);                       
+        b : out std_logic
+    );
+end validador;
+
+architecture validador_arch of validador is
+begin
+    process(a)
+    begin
+        if (a = "0000") or (a = "0001") or (a = "0010") or (a = "0011") or 
+           (a = "0100") or (a = "1000") or (a = "1100") or (a = "1111") then
+            b <= '1';
+        else
+            b <= a;
+        end if;
+    end process;
+end validador_arch;

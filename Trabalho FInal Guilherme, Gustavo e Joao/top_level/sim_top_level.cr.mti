@@ -1,0 +1,35 @@
+{C:/Users/gdcon/Documentos/trabalho lsd/01 - 30/controladora/controladora.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/gdcon/Documentos/trabalho lsd/01 - 30/controladora/controladora.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity controladora
+-- Compiling architecture arch of controladora
+
+} {} {}} C:/Users/gdcon/Documentos/validador/validador.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/gdcon/Documentos/validador/validador.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity validador
+-- Compiling architecture validador_arch of validador
+
+} {} {}} C:/Users/gdcon/Documentos/top_level/top_level.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/gdcon/Documentos/top_level/top_level.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity top_level
+-- Compiling architecture arch of top_level
+
+} {} {}} C:/Users/gdcon/Documentos/top_level/top_level_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/gdcon/Documentos/top_level/top_level_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity top_level_tb
+-- Compiling architecture tb_arch of top_level_tb
+
+} {} {}}

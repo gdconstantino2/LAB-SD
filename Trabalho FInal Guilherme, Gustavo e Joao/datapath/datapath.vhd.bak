@@ -1,0 +1,83 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.NUMERIC_STD.ALL;
+
+entity datapath is
+    port (
+        a     : in  std_logic_vector(3 downto 0);  -- Entrada de 4 bits
+        b     : out std_logic_vector(3 downto 0); -- Saída do decodificador
+        disp1, disp2, disp3 : out std_logic_vector(6 downto 0) -- Saídas dos 3 displays de 7 segmentos
+    );
+end datapath;
+
+architecture sistema_arch of datapath is
+    signal b_internal : std_logic_vector(3 downto 0); -- Sinal interno para b
+
+
+    -- Constantes para os caracteres 'd' e 'A' em 7 segmentos
+    constant CHAR_d : unsigned(6 downto 0) := "0111101"; -- 'd' em 7 segmentos
+    constant CHAR_A : unsigned(6 downto 0) := "0001000"; -- 'A' em 7 segmentos
+
+begin
+    -- Instância do validador
+    U1: entity work.validador
+        port map (
+            a => a,
+            b => b,
+        );
+    -- Processo para controlar a exibição dos displays
+    process(b_internal)
+    begin
+        -- Inicializa todos os displays com 'd'
+        disp1 <= CHAR_d;
+        disp2 <= CHAR_d;
+        disp3 <= CHAR_d;
+
+        -- Verifica o valor de d_internal e atualiza os displays conforme necessário
+        case b_internal is
+            when "0000" =>
+                -- Todos os displays mostram 'd' (já inicializado)
+                null;
+
+            when "0001" =>
+                -- Display 1 mostra 'A', os outros mostram 'd'
+                disp1 <= CHAR_A;
+
+            when "0010" =>
+                -- Display 2 mostra 'A', os outros mostram 'd'
+                disp2 <= CHAR_A;
+
+            when "0011" =>
+                -- Display 3 mostra 'A', os outros mostram 'd'
+                disp3 <= CHAR_A;
+
+            when "1100" =>
+                -- Displays 2 e 3 mostram 'A', display 1 mostra 'd'
+                disp2 <= CHAR_A;
+                disp3 <= CHAR_A;
+
+            when "1000" =>
+                -- Displays 1 e 3 mostram 'A', display 2 mostra 'd'
+                disp1 <= CHAR_A;
+                disp3 <= CHAR_A;
+
+            when "0100" =>
+                -- Displays 1 e 2 mostram 'A', display 3 mostra 'd'
+                disp1 <= CHAR_A;
+                disp2 <= CHAR_A;
+
+            when "1111" =>
+                -- Todos os displays mostram 'A'
+                disp1 <= CHAR_A;
+                disp2 <= CHAR_A;
+                disp3 <= CHAR_A;
+
+            when others =>
+                -- Caso padrão: todos os displays mostram 'd' (já inicializado)
+                null;
+        end case;
+    end process;
+
+    -- Atribuição dos sinais intermediários aos displays de saída
+
+end sistema_arch;

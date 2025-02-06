@@ -1,0 +1,212 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/gdcon/Documentos/datapath
+Econtroladora
+Z0 w1738786016
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/gdcon/Documentos/top_level
+Z4 8C:/Users/gdcon/Documentos/trabalho lsd/01 - 30/controladora/controladora.vhd
+Z5 FC:/Users/gdcon/Documentos/trabalho lsd/01 - 30/controladora/controladora.vhd
+l0
+L4
+V[a:X=;@@KV^UE2fk2i<A_0
+!s100 k?ZRmd<1DgRAMc>Yb5DV=0
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1738786792
+!i10b 1
+Z8 !s108 1738786791.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gdcon/Documentos/trabalho lsd/01 - 30/controladora/controladora.vhd|
+Z10 !s107 C:/Users/gdcon/Documentos/trabalho lsd/01 - 30/controladora/controladora.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aarch
+R1
+R2
+Z13 DEx4 work 12 controladora 0 22 [a:X=;@@KV^UE2fk2i<A_0
+l18
+L13
+Z14 VEa0NL5iJD]WG>@HSc318U3
+Z15 !s100 M;l;O^nM;]a@F9nz_P=BB3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edatapath
+Z16 w1738786781
+Z17 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+R3
+Z18 8C:/Users/gdcon/Documentos/datapath/datapath.vhd
+Z19 FC:/Users/gdcon/Documentos/datapath/datapath.vhd
+l0
+L5
+V:l_`kXW9zeMeFk1FhVm^R0
+!s100 [nVYKVF4?RoCnaNcICDfQ1
+R6
+32
+Z20 !s110 1738786791
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gdcon/Documentos/datapath/datapath.vhd|
+Z22 !s107 C:/Users/gdcon/Documentos/datapath/datapath.vhd|
+!i113 1
+R11
+R12
+Asistema_arch
+Z23 DEx4 work 9 validador 0 22 SVf=^<Z3O5KhezAF7Cfa;2
+R17
+R1
+R2
+DEx4 work 8 datapath 0 22 :l_`kXW9zeMeFk1FhVm^R0
+l21
+L14
+V3FR8:fLbWRc9M>>9:fRZX2
+!s100 U?o0hzF70cj5ULfmT6_G]0
+R6
+32
+R20
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12
+Etop_level
+Z24 w1738783019
+R17
+R1
+R2
+R3
+Z25 8C:/Users/gdcon/Documentos/top_level/top_level.vhd
+Z26 FC:/Users/gdcon/Documentos/top_level/top_level.vhd
+l0
+L5
+V<Me8IHV@;M_RFHM]<EeVQ1
+!s100 3M7d@Bo6[gSI?mUOic>kk2
+R6
+32
+R20
+!i10b 1
+R8
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gdcon/Documentos/top_level/top_level.vhd|
+Z28 !s107 C:/Users/gdcon/Documentos/top_level/top_level.vhd|
+!i113 1
+R11
+R12
+Aarch
+R17
+R1
+R2
+DEx4 work 9 top_level 0 22 <Me8IHV@;M_RFHM]<EeVQ1
+l40
+L16
+VF>nE<QVzDGC7DKgf<^2_b2
+!s100 UNS6a[P76P0nDFPOI15`I3
+R6
+32
+R20
+!i10b 1
+R8
+R27
+R28
+!i113 1
+R11
+R12
+Etop_level_tb
+Z29 w1738785691
+R17
+R1
+R2
+R3
+Z30 8C:/Users/gdcon/Documentos/top_level/top_level_tb.vhd
+Z31 FC:/Users/gdcon/Documentos/top_level/top_level_tb.vhd
+l0
+L5
+VmQz:cV[Td^7ZQZZVH67Be1
+!s100 QeKcTh4oGLe=fG_gQ_0G^1
+R6
+32
+R20
+!i10b 1
+R8
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gdcon/Documentos/top_level/top_level_tb.vhd|
+Z33 !s107 C:/Users/gdcon/Documentos/top_level/top_level_tb.vhd|
+!i113 1
+R11
+R12
+Atb_arch
+R17
+R1
+R2
+DEx4 work 12 top_level_tb 0 22 mQz:cV[Td^7ZQZZVH67Be1
+l31
+L8
+V4Tj9SToZID9mgImFd;;Uz2
+!s100 FN?SWVzfA4[?P]ZWE^^o90
+R6
+32
+R20
+!i10b 1
+R8
+R32
+R33
+!i113 1
+R11
+R12
+Evalidador
+Z34 w1738782295
+R1
+R2
+R3
+Z35 8C:/Users/gdcon/Documentos/validador/validador.vhd
+Z36 FC:/Users/gdcon/Documentos/validador/validador.vhd
+l0
+L4
+VSVf=^<Z3O5KhezAF7Cfa;2
+!s100 ]G]>jFb`[4zl_H?Wh`MY12
+R6
+32
+R20
+!i10b 1
+R8
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gdcon/Documentos/validador/validador.vhd|
+Z38 !s107 C:/Users/gdcon/Documentos/validador/validador.vhd|
+!i113 1
+R11
+R12
+Avalidador_arch
+R1
+R2
+R23
+l12
+L11
+V>8RA`QK3f;VT`eLk1An3n3
+!s100 HJ8;E4XEfQ_DTilI?fV592
+R6
+32
+R20
+!i10b 1
+R8
+R37
+R38
+!i113 1
+R11
+R12

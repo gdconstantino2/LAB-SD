@@ -1,0 +1,11 @@
+
+State Machine - |top_level|controladora:controladora_inst|state
+Name state.l7 state.l6 state.l5 state.l4 state.l3 state.l2 state.l1 state.l0 
+state.l0 0 0 0 0 0 0 0 0 
+state.l1 0 0 0 0 0 0 1 1 
+state.l2 0 0 0 0 0 1 0 1 
+state.l3 0 0 0 0 1 0 0 1 
+state.l4 0 0 0 1 0 0 0 1 
+state.l5 0 0 1 0 0 0 0 1 
+state.l6 0 1 0 0 0 0 0 1 
+state.l7 1 0 0 0 0 0 0 1 
